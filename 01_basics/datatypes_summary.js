@@ -2,12 +2,12 @@
 
 // 7 types : String ,Number , Boolean ,Null , Undefined , Bigint , Symbol
 
-const score = 100
-const scoreValue = 100.3
-const isLoggedIn = false
+ const score = 100
+ const scoreValue = 100.3
+ const isLoggedIn = false
 
-const outsideTemp = null
-let userEmail;
+ const outsideTemp = null
+ let userEmail;
 
 const id  = Symbol('123')
 const anotherId = Symbol('123')
@@ -35,5 +35,29 @@ const myfunction = function() {
 // console.log(heros)
 // console.log(myObj)
 // myfunction()
-console.log(typeof heros)
- console.log(typeof myfunction) 
+// console.log(typeof heros)
+//  console.log(typeof myfunction) 
+
+//  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(primitive) , Heap(Non-Primitive)
+
+let myYoutubename = "amisharanjancom"
+
+let anothername = myYoutubename
+
+anothername = "chaiaurcode"
+// console.log(myYoutubename)
+// console.log(anothername)
+
+
+let userOne =  {
+    email: "user@google.com",
+    upi: "userybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "amisha@google.com"
+console.log(userOne.email)
+console.log(userTwo.email)
